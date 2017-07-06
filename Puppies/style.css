@@ -1,0 +1,185 @@
+* {
+  font-family: sans-serif;font-family: Arial, Helvetica, sans-serif; line-height: 1.6;
+}
+body {
+  background-color: #dddddd;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 1000px;
+  line-height: 2.5;
+
+}
+
+
+}
+
+#site_header {
+  padding: 20px 10px 35px 20px;
+
+
+
+}
+
+.main_navigation{
+  padding: 35px;
+
+}
+
+.main_navigation a {
+  color: white;
+  border: solid 1px;
+  text-decoration: none;
+  padding: 5px 40px 5px 40px;
+}
+
+#site_header {
+  background-color: #ff8523;
+  border-top: #ffd24a 2px solid;
+  border-left:  #ffd24a 2px solid;
+  border-right:  #ffd24a 2px solid;
+
+}
+
+
+
+
+#page_content {
+  padding-left: 20px;
+  padding-right: 14px;
+  border: 2px solid #ffd24a;
+  border-bottom-width: medium;
+  background-color: white;
+
+
+}
+
+a {
+  margin: 3px; color: #1fabe5;
+
+}
+
+p {
+
+  background-color: white;
+}
+
+h2 {
+  color: #1fabe5; font-weight: bold;
+
+}
+
+h3 {
+  color: #1fabe5;
+}
+#page_content ul {
+  font-weight: bold;
+  list-style: disc;
+  background-color: white;
+  padding-bottom: 36px;
+  margin-bottom: 36px;
+  border-bottom: solid #dddddd 4px;
+
+}
+
+
+
+
+table, td, th {
+  border: solid 1px #1fabe5;
+  border-collapse:collapse;
+  margin-left: 20px;
+  width: 900px;
+  background-color: white;
+
+}
+
+
+thead td {
+  background-color: #1fabe5;
+  color: white;
+}
+
+td {
+  align-items: right;
+  align-content: center;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+img {
+  height: 40%;
+  width: 50%;
+  padding: 15px 35px 15px 35px;
+
+
+}
+
+label {
+  font-weight: bold;
+  border-top: 2px solid ##eee;
+}
+
+
+form {
+  background-color: #dddddd;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  margin: 20px 6px 6px 6px;
+  border-bottom: #dddddd;
+
+}
+
+.city_container {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  border-top: #dddddd;
+  border-bottom: solid 3px ##eee;
+
+
+}
+
+textarea {
+  width: 915px;
+  margin-top: 22px;
+  margin-left: 20px;
+  border: #1fabe5 solid 1px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.submit_container {
+  border: solid 1px ##eee;
+}
+
+
+
+<!//*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
