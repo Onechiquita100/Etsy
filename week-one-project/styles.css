@@ -1,0 +1,164 @@
+
+  //*  Background: #F2F1E8
+    Text: #131511
+    Inline Link: #968772
+    Inline Link (Hover): #967343
+    Navigation Background: #FFFFFF
+    Navigation Text: #2B2F26
+    Navigation Text (Hover): #CD5D67
+    Navigation Text (Active) #968772
+    Button Background: #968772
+    Button Background (Hover): #967343
+    Button Text: #F2F1E8
+    Button Text (Hover): #FFFFFF
+    Input Border Bottom: #968772
+    Input Border Bottom (Focus): #967343
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+  *//
+
+
+.clearfix:after {
+        content:"";
+        display:block;
+        clear:both;
+}
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #f2f1e8;
+  line-height: 1.6;
+  max-width: 1000px;
+
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  max-width: 1000px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+
+
+}
+#logo {
+  float: left;
+}
+
+
+.main_navigation a {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: underline;
+  padding-left: 40px;
+  margin-top: 100px;
+  justify-content:flex-end;
+  color: #2B2F26;
+
+
+
+
+}
+
+a:hover {
+  color: #cd5d67;
+}
+
+a:active {
+    color: #968772;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+#Bent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+blockquote {
+  font-style: italic;
+  padding-left: 70px;
+  padding-right: 200px;
+  padding-top: 20px;
+  border-left: solid 1px darkgray;
+}
+
+h3 {
+  font-size:  22px;
+}
+
+#birdhouse {
+  float: left;
+  margin-left: 50px;
+}
+
+#Community {
+  display: block;
+  font-size: 54px;
+  text-align: center;
+}
+
+#studio {
+
+  padding: 5px 70px 5px 50px;
+
+
+
+}
+
+.history {
+  margin-left: 50px;
+}
+
+#succulent h3{
+  color: white;
+}
+
+
+.facilities{
+  margin-left: 50px;
+}
+
+#Monthly {
+  margin-left: 50px;
+
+
+
+}
+
+#pricing td {
+  border: solid 1px black;
+  border-collapse: collapse;
+  margin-left: 50px;
+}
+
+#shelf {
+  float: right;
+}
+
+
+table {
+  border: black solid 1px;
+  width: 900px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: 50px;
+
+}
+
+footer {
+  background-color: #2B2F26;
+  color: white;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
