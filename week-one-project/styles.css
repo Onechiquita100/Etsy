@@ -35,25 +35,32 @@ body {
 header {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  max-width: 1000px;
-  height: 130px;
+  max-width: 1400px;
+  height: 90px;
   display: flex;
   align-items: center;
 
 
 }
+
+
 #logo {
   float: left;
 }
 
+.main_navigation {}
+
+
 
 .main_navigation a {
+  display: inline;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: underline;
-  padding-left: 40px;
+  padding-left: 0px;
   margin-top: 100px;
-  justify-content:flex-end;
+  margin-left: 130px;
   color: #2B2F26;
 
 
@@ -114,16 +121,45 @@ h3 {
 
 .history {
   margin-left: 50px;
+  margin-right: 60px;
 }
 
-#succulent h3{
-  color: white;
+.relative {
+
 }
+
+.relative h1 {
+color: white;
+font-size: 40px;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+background-image: url("background-3.jpg");
+background-color: white;
+
+}
+
+
 
 
 .facilities{
+
   margin-left: 50px;
+  margin-right: 60px;
+
 }
+
+
+
+
+
+#facility {
+  margin-left: 50px;
+
+
+}
+
+
 
 #Monthly {
   margin-left: 50px;
@@ -142,9 +178,8 @@ h3 {
   float: right;
 }
 
-
-table {
-  border: black solid 1px;
+#pricing {
+  border: gray solid 1px;
   width: 900px;
   text-align: center;
   border-collapse: collapse;
@@ -152,13 +187,220 @@ table {
 
 }
 
+#pricing tr {
+  border-left: gray solid 1px;
+
+}
+
 footer {
   background-color: #2B2F26;
+  padding-left: 20px;
   color: white;
   height: 90px;
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   justify-content: center;
   flex-direction: column;
   margin-top: 25px;
+}
+
+.ceramics_names {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+
+}
+
+#Bent1 {
+  text-align: center;
+  font-size: 150%;
+
+
+
+
+
+
+}
+
+#argh_endless {
+  background: url("images/product-1.jpg");
+  display: flex;
+  width: 480px;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  flex-direction: column-reverse;
+
+}
+
+
+#endless p {
+    display: block;
+    text-align: center;
+    background-color: #2B2F26;
+    color: white;
+    width: 185px;
+    height: 25px;
+    margin: 10px;
+
+  }
+
+#argh_sets {
+    background: url("images/product-2.jpg");
+    width: 220px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+#sets p {
+  display: block;
+  text-align: center;
+  background-color: #2B2F26;
+  color: white;
+  width: 60px;
+  height: 25px;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#argh_texture {
+  background: url("images/product-3.jpg");
+  width: 220px;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#textures p {
+  display: block;
+  text-align: center;
+  background-color: #2B2F26;
+  color: white;
+  width: 95px;
+  height: 25px;
+  margin: 10px;
+
+}
+
+#argh_tea {
+  background: url("images/product-4.jpg");
+  width: 175px;
+  height: 217px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#tea p {
+  display: block;
+  text-align: center;
+  background-color: #2B2F26;
+  color: white;
+  width: 95px;
+  height: 25px;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+#argh_jars {
+  background: url("images/product-5.jpg");
+  width: 175px;
+  height: 217px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#jars p {
+  display: block;
+  text-align: center;
+  background-color: #2B2F26;
+  color: white;
+  width: 155px;
+  height: 25px;
+  margin: 3px;
+
+}
+
+#argh_saki {
+  background: url("images/product-6.jpg");
+  width: 350px;
+  height: 217px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#saki p {
+  display: block;
+  text-align: center;
+  background-color: #2B2F26;
+  color: white;
+  width: 95px;
+  height: 25px;
+  margin: 10px;
+
+}
+
+#argh_sunshine {
+  background: url("images/product-7.jpg");
+  width: 220px;
+  height: 217px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#sunshine p{
+  display: block;
+  text-align: center;
+  background-color: #2B2F26;
+  color: white;
+  width: 155px;
+  height: 25px;
+  margin: 10px;
+
+}
+
+#postcard_back {
+  background: url("images/background-2.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#postcard {
+
+  background-color: white;
+  width: 60%;
+  height: 40%;
+}
+
+#postcard h3 {
+  display: block;
+  text-align: center;
+}
+
+#postcard h4 {
+  display: block;
+  text-align: center;
+}
+
+#submit_button {
+  background-color: #968772;
+  color: white;
 }
