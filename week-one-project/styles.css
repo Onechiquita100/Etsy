@@ -384,13 +384,15 @@ footer {
 
 
 #postcard {
-
   background-color: white;
   width: 60%;
   height: 40%;
+  line-height: 1.2;
 }
 
 #postcard h3 {
+  color: #2B2F26;
+  font-weight: lighter;
   display: block;
   text-align: center;
 }
@@ -400,7 +402,47 @@ footer {
   text-align: center;
 }
 
+#postcard form {
+  color: #967343;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  padding-left: 76px;
+  line-height: .9;
+}
+
+#name {
+    padding: 5px 20px 5px 20px;
+    width: 400px;
+    color: #968772;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#email_ad {
+
+    padding: 5px 20px 5px 20px;
+    width: 400px;
+    color: #968772;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#marketing_info {
+  display: block;
+
+
+
+}
+hr {
+  color: #gray;
+  width: 550px;
+}
+
+
 #submit_button {
   background-color: #968772;
   color: white;
-}
+  width: 100px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
